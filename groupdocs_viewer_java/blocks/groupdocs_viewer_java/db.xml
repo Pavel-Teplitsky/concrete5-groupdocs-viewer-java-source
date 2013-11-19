@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btGroupDocsViewerJava">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="height" type="C" size="10"></field>
+                <field name="width" type="C" size="10"></field>
+		<field name="groupdocs_url" type="C" size="200"></field>
+		<field name="fID" type="I">
+			<unsigned />
+		</field>
+	</table>
+</schema>
